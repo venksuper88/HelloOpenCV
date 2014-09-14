@@ -70,7 +70,6 @@ void captureCamera() {
 
 	int frame_width = vcap.get(CV_CAP_PROP_FRAME_WIDTH);
 	int frame_height = vcap.get(CV_CAP_PROP_FRAME_HEIGHT);
-	//double fps = vcap.get(CV_CAP_PROP_FPS);
 
 	VideoWriter video("out.mov", CV_FOURCC('m', 'p', '4', 'v'), 10,
 			Size(frame_width, frame_height), true);
