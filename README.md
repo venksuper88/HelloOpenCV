@@ -1,0 +1,4 @@
+HelloOpenCV
+===========
+
+First OpenCV Project
